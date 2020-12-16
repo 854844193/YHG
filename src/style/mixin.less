@@ -1,0 +1,146 @@
+@blue: #3190e8;
+@bc: #e4e4e4;
+@fc: #fff;
+
+// 背景图片地址和大小
+.bis(@url) {
+    background-image: url(@url);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+//定位全屏
+.allcover {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+//transform上下左右居中
+.ctt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//定位上下左右居中
+.ctp(@width, @height) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -@height/2;
+    margin-left: -@width/2;
+}
+
+//定位上下居中
+.tb {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位左右居中
+.lr {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.orderTop {
+    width: 40%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_split {
+    margin: 20px 20px 0;
+    padding: 0 10px;
+}
+
+.searchBox{
+    margin: 20px 20px 0;
+    padding: 0 20px;
+}
+
+.searchWarp {
+    margin-top: 20px ;
+    .input-width {
+        width: 203px;
+      }
+      .date-width{
+        width: 250px;
+      }
+      .dateTime-width{
+        width: 350px;
+      }
+}
+
+.searchInput {
+    width: 225px;
+    height: 40px;
+}
+.searchBottom{
+    float: right;
+    margin-bottom: 10px;
+}
+
+.search_btn{
+    margin: 0 !important;
+    margin-left:10px ;
+}
+
+.table_container {
+    padding: 20px;
+    overflow: auto;
+    .dataList{
+        // border: 1px solid  #dadee5;
+        padding: 0 10px 5px;
+    }
+}
+
+
+.headImg {
+    border: solid 1px #dadee5;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.Pagination {
+    float: right;
+    margin-top: 8px;
+}
+.tableBtn {
+    width: 100%;
+    margin: 5px 10px;
+    display: flex;
+  }
+
+
+//宽高
+.wh(@width, @height) {
+    width: @width;
+    height: @height;
+}
+
+//字体大小、行高、字体
+.ft(@size, @line-height) {
+    font-size: @size;
+    line-height: @line-height;
+}
+
+//字体大小，颜色
+.sc(@size, @color) {
+    font-size: @size;
+    color: @color;
+}
+
+//flex 布局和 子元素 对其方式
+.fj(@type: space-between) {
+    display: flex;
+    justify-content: @type;
+
+}

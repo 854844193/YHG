@@ -1,0 +1,44 @@
+{
+  "id": "2165826",
+  "name": "back",
+  "font_family": "iconfont",
+  "css_prefix_text": "vue-dsn-icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5092860",
+      "name": "收入",
+      "font_class": "income-o",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5206117",
+      "name": "订单",
+      "font_class": "icon",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9826653",
+      "name": "成员管理",
+      "font_class": "chengyuanguanli",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12290473",
+      "name": "成员1",
+      "font_class": "chengyuan",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "15711145",
+      "name": "收入",
+      "font_class": "shouru",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}
